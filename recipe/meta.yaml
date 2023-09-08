@@ -5,8 +5,8 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://github.com/workflow4metabolomics/W4MRUtils/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b6c2f7b3aae2bb88a8f27db40596a76bcd5f84b2d1324f8147787b070087c037
+  url: https://cran.r-project.org/src/contrib/W4MRUtils_{{ version }}.tar.gz
+  sha256: d58b5b2af30e9acc30a4c8ba2390423d433a675ea6615ba39945626300f1d88b
 
 build:
   noarch: generic
